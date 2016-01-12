@@ -35,7 +35,6 @@ class PomodoroController: UIViewController {
             initButton.backgroundColor = UIColor(red:1, green:0.263, blue:0.318, alpha:1)
             initButton.setTitle("Stop", forState: UIControlState.Normal)
             doAnimation()
-            //secondsLeft = 25 * 60
             timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target:self, selector: "countDown", userInfo: nil, repeats: true)
         }
         else {

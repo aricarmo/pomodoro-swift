@@ -15,9 +15,9 @@
 		FC1887E31C3F3E9C000E93B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1887E11C3F3E9C000E93B4 /* LaunchScreen.storyboard */; };
 		FC1887EF1C3F630F000E93B4 /* pomodoro0.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1887ED1C3F630F000E93B4 /* pomodoro0.png */; };
 		FC1887F01C3F630F000E93B4 /* pomodoro1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1887EE1C3F630F000E93B4 /* pomodoro1.png */; };
-		FC772EF91C457B0900510D8A /* home-icon-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = FC772EF71C457B0900510D8A /* home-icon-selected.png */; };
 		FC772EFA1C457B0900510D8A /* home-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC772EF81C457B0900510D8A /* home-icon.png */; };
 		FC772EFC1C457E7200510D8A /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC772EFB1C457E7200510D8A /* Util.swift */; };
+		FC772F021C458F4300510D8A /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = FC772F011C458F4300510D8A /* settings.png */; };
 		FCF49E721C44E323006974A5 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF49E711C44E323006974A5 /* SettingsController.swift */; };
 		FCF49E7A1C450072006974A5 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF49E791C450072006974A5 /* TimeModel.swift */; };
 /* End PBXBuildFile section */
@@ -33,9 +33,9 @@
 		FC1887E41C3F3E9C000E93B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC1887ED1C3F630F000E93B4 /* pomodoro0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pomodoro0.png; sourceTree = "<group>"; };
 		FC1887EE1C3F630F000E93B4 /* pomodoro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pomodoro1.png; sourceTree = "<group>"; };
-		FC772EF71C457B0900510D8A /* home-icon-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-icon-selected.png"; sourceTree = "<group>"; };
 		FC772EF81C457B0900510D8A /* home-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-icon.png"; sourceTree = "<group>"; };
 		FC772EFB1C457E7200510D8A /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		FC772F011C458F4300510D8A /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		FCF49E711C44E323006974A5 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		FCF49E791C450072006974A5 /* TimeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 		FC1887F21C3F631C000E93B4 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				FC772EF71C457B0900510D8A /* home-icon-selected.png */,
+				FC772F011C458F4300510D8A /* settings.png */,
 				FC772EF81C457B0900510D8A /* home-icon.png */,
 				FC1887ED1C3F630F000E93B4 /* pomodoro0.png */,
 				FC1887EE1C3F630F000E93B4 /* pomodoro1.png */,
@@ -194,7 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC772EF91C457B0900510D8A /* home-icon-selected.png in Resources */,
+				FC772F021C458F4300510D8A /* settings.png in Resources */,
 				FC772EFA1C457B0900510D8A /* home-icon.png in Resources */,
 				FC1887E31C3F3E9C000E93B4 /* LaunchScreen.storyboard in Resources */,
 				FC1887E01C3F3E9C000E93B4 /* Assets.xcassets in Resources */,

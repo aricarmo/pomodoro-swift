@@ -31,10 +31,11 @@ class SettingsController: UIViewController {
             settings = NSUserDefaults.standardUserDefaults().objectForKey("settings") as! [String]
             txtInterval.text = settings[0]
         }
+        applyButtonStyle()
         //add event to hide keyboard
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "donePressed")
         view.addGestureRecognizer(tap)
-        applyButtonStyle()
+        
     }
     
     /*
