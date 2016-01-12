@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		FC1887D71C3F3E9C000E93B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1887D61C3F3E9C000E93B4 /* AppDelegate.swift */; };
-		FC1887D91C3F3E9C000E93B4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1887D81C3F3E9C000E93B4 /* FirstViewController.swift */; };
-		FC1887DB1C3F3E9C000E93B4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1887DA1C3F3E9C000E93B4 /* SecondViewController.swift */; };
+		FC1887D91C3F3E9C000E93B4 /* PomodoroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1887D81C3F3E9C000E93B4 /* PomodoroController.swift */; };
+		FC1887DB1C3F3E9C000E93B4 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1887DA1C3F3E9C000E93B4 /* HistoryController.swift */; };
 		FC1887DE1C3F3E9C000E93B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1887DC1C3F3E9C000E93B4 /* Main.storyboard */; };
 		FC1887E01C3F3E9C000E93B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1887DF1C3F3E9C000E93B4 /* Assets.xcassets */; };
 		FC1887E31C3F3E9C000E93B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1887E11C3F3E9C000E93B4 /* LaunchScreen.storyboard */; };
+		FC1887EF1C3F630F000E93B4 /* pomodoro0.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1887ED1C3F630F000E93B4 /* pomodoro0.png */; };
+		FC1887F01C3F630F000E93B4 /* pomodoro1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1887EE1C3F630F000E93B4 /* pomodoro1.png */; };
+		FC772EF91C457B0900510D8A /* home-icon-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = FC772EF71C457B0900510D8A /* home-icon-selected.png */; };
+		FC772EFA1C457B0900510D8A /* home-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC772EF81C457B0900510D8A /* home-icon.png */; };
+		FCF49E721C44E323006974A5 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF49E711C44E323006974A5 /* SettingsController.swift */; };
+		FCF49E741C44EB6D006974A5 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF49E731C44EB6D006974A5 /* Util.swift */; };
+		FCF49E7A1C450072006974A5 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF49E791C450072006974A5 /* TimeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC1887D31C3F3E9C000E93B4 /* pomodoroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pomodoroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1887D61C3F3E9C000E93B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC1887D81C3F3E9C000E93B4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FC1887DA1C3F3E9C000E93B4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FC1887D81C3F3E9C000E93B4 /* PomodoroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroController.swift; sourceTree = "<group>"; };
+		FC1887DA1C3F3E9C000E93B4 /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
 		FC1887DD1C3F3E9C000E93B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC1887DF1C3F3E9C000E93B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC1887E21C3F3E9C000E93B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC1887E41C3F3E9C000E93B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1887ED1C3F630F000E93B4 /* pomodoro0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pomodoro0.png; sourceTree = "<group>"; };
+		FC1887EE1C3F630F000E93B4 /* pomodoro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pomodoro1.png; sourceTree = "<group>"; };
+		FC772EF71C457B0900510D8A /* home-icon-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-icon-selected.png"; sourceTree = "<group>"; };
+		FC772EF81C457B0900510D8A /* home-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-icon.png"; sourceTree = "<group>"; };
+		FCF49E711C44E323006974A5 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		FCF49E731C44EB6D006974A5 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Util.swift; path = ../Util.swift; sourceTree = "<group>"; };
+		FCF49E791C450072006974A5 /* TimeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,70 @@
 		FC1887D51C3F3E9C000E93B4 /* pomodoroApp */ = {
 			isa = PBXGroup;
 			children = (
-				FC1887D61C3F3E9C000E93B4 /* AppDelegate.swift */,
-				FC1887D81C3F3E9C000E93B4 /* FirstViewController.swift */,
-				FC1887DA1C3F3E9C000E93B4 /* SecondViewController.swift */,
-				FC1887DC1C3F3E9C000E93B4 /* Main.storyboard */,
+				FCF49E761C44FA9B006974A5 /* Utils */,
+				FCF49E771C44FAA2006974A5 /* Delegates */,
+				FCF49E751C44FA83006974A5 /* Controllers */,
+				FCF49E7B1C4504EA006974A5 /* Models */,
+				FCF49E781C44FB18006974A5 /* Storyboards */,
+				FC1887F21C3F631C000E93B4 /* images */,
 				FC1887DF1C3F3E9C000E93B4 /* Assets.xcassets */,
-				FC1887E11C3F3E9C000E93B4 /* LaunchScreen.storyboard */,
 				FC1887E41C3F3E9C000E93B4 /* Info.plist */,
 			);
 			path = pomodoroApp;
+			sourceTree = "<group>";
+		};
+		FC1887F21C3F631C000E93B4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FC772EF71C457B0900510D8A /* home-icon-selected.png */,
+				FC772EF81C457B0900510D8A /* home-icon.png */,
+				FC1887ED1C3F630F000E93B4 /* pomodoro0.png */,
+				FC1887EE1C3F630F000E93B4 /* pomodoro1.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		FCF49E751C44FA83006974A5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC1887D81C3F3E9C000E93B4 /* PomodoroController.swift */,
+				FC1887DA1C3F3E9C000E93B4 /* HistoryController.swift */,
+				FCF49E711C44E323006974A5 /* SettingsController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FCF49E761C44FA9B006974A5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FCF49E731C44EB6D006974A5 /* Util.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		FCF49E771C44FAA2006974A5 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FC1887D61C3F3E9C000E93B4 /* AppDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		FCF49E781C44FB18006974A5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FC1887DC1C3F3E9C000E93B4 /* Main.storyboard */,
+				FC1887E11C3F3E9C000E93B4 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		FCF49E7B1C4504EA006974A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCF49E791C450072006974A5 /* TimeModel.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +194,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC772EF91C457B0900510D8A /* home-icon-selected.png in Resources */,
+				FC772EFA1C457B0900510D8A /* home-icon.png in Resources */,
 				FC1887E31C3F3E9C000E93B4 /* LaunchScreen.storyboard in Resources */,
 				FC1887E01C3F3E9C000E93B4 /* Assets.xcassets in Resources */,
 				FC1887DE1C3F3E9C000E93B4 /* Main.storyboard in Resources */,
+				FC1887F01C3F630F000E93B4 /* pomodoro1.png in Resources */,
+				FC1887EF1C3F630F000E93B4 /* pomodoro0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC1887DB1C3F3E9C000E93B4 /* SecondViewController.swift in Sources */,
+				FC1887DB1C3F3E9C000E93B4 /* HistoryController.swift in Sources */,
+				FCF49E741C44EB6D006974A5 /* Util.swift in Sources */,
+				FCF49E721C44E323006974A5 /* SettingsController.swift in Sources */,
 				FC1887D71C3F3E9C000E93B4 /* AppDelegate.swift in Sources */,
-				FC1887D91C3F3E9C000E93B4 /* FirstViewController.swift in Sources */,
+				FCF49E7A1C450072006974A5 /* TimeModel.swift in Sources */,
+				FC1887D91C3F3E9C000E93B4 /* PomodoroController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +364,7 @@
 				FC1887E91C3F3E9C000E93B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

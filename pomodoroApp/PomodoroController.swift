@@ -23,6 +23,7 @@ class PomodoroController: UIViewController {
     var seconds = Int()
     var pomodoroList = [String]()
     var settings = [String]()
+    let tabBar = UITabBar()
     
     @IBOutlet weak var timeTxt: UILabel!
     @IBOutlet weak var pomodoroImage: UIImageView!
@@ -46,7 +47,6 @@ class PomodoroController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         applyButtonStyle()
-        
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -92,18 +92,8 @@ class PomodoroController: UIViewController {
     
     func save() {
         let toSave = ["elapsed": String(secondsElapsed), "date" : String(NSDate())]
-        do {
-            let theJSONData  = try NSJSONSerialization.dataWithJSONObject(
-                toSave,
-                options: NSJSONWritingOptions(rawValue: 0))
-            let theJSONText = String(data: theJSONData,
-                encoding: NSASCIIStringEncoding)
-            pomodoroList.append(theJSONText!)
-            pomodoroList = pomodoroList.reverse()
-            NSUserDefaults.standardUserDefaults().setObject(pomodoroList, forKey: "pomodoroList");
-        } catch {
-            print("error")
-        }
+        pomodoroList.append(Util.dictToJsonString(toSave));
+        NSUserDefaults.standardUserDefaults().setObject(pomodoroList, forKey: "pomodoroList");
     }
     
     func applyButtonStyle() {
@@ -166,5 +156,6 @@ class PomodoroController: UIViewController {
         }
         CATransaction.commit()
     }
+    
 }
 
