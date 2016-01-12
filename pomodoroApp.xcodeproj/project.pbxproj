@@ -17,8 +17,8 @@
 		FC1887F01C3F630F000E93B4 /* pomodoro1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1887EE1C3F630F000E93B4 /* pomodoro1.png */; };
 		FC772EF91C457B0900510D8A /* home-icon-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = FC772EF71C457B0900510D8A /* home-icon-selected.png */; };
 		FC772EFA1C457B0900510D8A /* home-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC772EF81C457B0900510D8A /* home-icon.png */; };
+		FC772EFC1C457E7200510D8A /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC772EFB1C457E7200510D8A /* Util.swift */; };
 		FCF49E721C44E323006974A5 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF49E711C44E323006974A5 /* SettingsController.swift */; };
-		FCF49E741C44EB6D006974A5 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF49E731C44EB6D006974A5 /* Util.swift */; };
 		FCF49E7A1C450072006974A5 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF49E791C450072006974A5 /* TimeModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,8 +35,8 @@
 		FC1887EE1C3F630F000E93B4 /* pomodoro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pomodoro1.png; sourceTree = "<group>"; };
 		FC772EF71C457B0900510D8A /* home-icon-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-icon-selected.png"; sourceTree = "<group>"; };
 		FC772EF81C457B0900510D8A /* home-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-icon.png"; sourceTree = "<group>"; };
+		FC772EFB1C457E7200510D8A /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		FCF49E711C44E323006974A5 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
-		FCF49E731C44EB6D006974A5 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Util.swift; path = ../Util.swift; sourceTree = "<group>"; };
 		FCF49E791C450072006974A5 /* TimeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,7 +106,7 @@
 		FCF49E761C44FA9B006974A5 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				FCF49E731C44EB6D006974A5 /* Util.swift */,
+				FC772EFB1C457E7200510D8A /* Util.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -212,9 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC1887DB1C3F3E9C000E93B4 /* HistoryController.swift in Sources */,
-				FCF49E741C44EB6D006974A5 /* Util.swift in Sources */,
 				FCF49E721C44E323006974A5 /* SettingsController.swift in Sources */,
 				FC1887D71C3F3E9C000E93B4 /* AppDelegate.swift in Sources */,
+				FC772EFC1C457E7200510D8A /* Util.swift in Sources */,
 				FCF49E7A1C450072006974A5 /* TimeModel.swift in Sources */,
 				FC1887D91C3F3E9C000E93B4 /* PomodoroController.swift in Sources */,
 			);
