@@ -12,7 +12,7 @@ public class TimeModel: NSObject {
     
     public class func timeAgoCalc(sDate:String, numericDates:Bool) -> String {
         let dateFormatter = NSDateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd hh:mm:ss xx"
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss xxx"
         let date = dateFormatter.dateFromString(sDate)
         
         let calendar = NSCalendar.currentCalendar()
